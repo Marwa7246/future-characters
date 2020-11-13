@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/future-characters/static/css/main.81edf253.chunk.css",
+    "main.css": "/future-characters/static/css/main.a2c9a677.chunk.css",
     "main.js": "/future-characters/static/js/main.cba4061c.chunk.js",
     "main.js.map": "/future-characters/static/js/main.cba4061c.chunk.js.map",
     "runtime-main.js": "/future-characters/static/js/runtime-main.42e83478.js",
@@ -10,14 +10,15 @@
     "static/js/3.b0ab8748.chunk.js": "/future-characters/static/js/3.b0ab8748.chunk.js",
     "static/js/3.b0ab8748.chunk.js.map": "/future-characters/static/js/3.b0ab8748.chunk.js.map",
     "index.html": "/future-characters/index.html",
-    "static/css/main.81edf253.chunk.css.map": "/future-characters/static/css/main.81edf253.chunk.css.map",
+    "static/css/main.a2c9a677.chunk.css.map": "/future-characters/static/css/main.a2c9a677.chunk.css.map",
     "static/js/2.a1ad5e01.chunk.js.LICENSE.txt": "/future-characters/static/js/2.a1ad5e01.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/future-characters/static/media/Dr_John_Zoidberg.22a89a88.png",
     "static/media/logo.103b5fa1.svg": "/future-characters/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.42e83478.js",
     "static/js/2.a1ad5e01.chunk.js",
-    "static/css/main.81edf253.chunk.css",
+    "static/css/main.a2c9a677.chunk.css",
     "static/js/main.cba4061c.chunk.js"
   ]
 }
