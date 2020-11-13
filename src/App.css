@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600;700&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -16,6 +18,31 @@ main {
   padding: 0 1em;
 }
 
+
+
+
+header {
+  background: linear-gradient(to bottom, lightblue, blue);
+padding: 2em 0;
+margin-bottom: 3em;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+  font-weight: 700;
+  color: white;
+  font-family: 'hind', sans-serif;
+  margin: 0em;
+}
+
+@media only screen and (max-width: 50em) {
+  h1 {
+    font-size: 7vw;
+  }
+}
 @media only screen and (max-width: 40em) {
   main {
     flex-direction: column-reverse;
@@ -28,11 +55,60 @@ main {
 
 }
 
-
-.App-header {
-  background: linear-gradient(to bottom, lightblue, blue);
-padding: 2em 0;
-margin-bottom: 3em;
+.characters, .character-meta {
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
 }
 
+.characters {
+  flex-grow: 1;
+
+}
+
+.character {
+  display: flex;
+  margin-bottom: 1em;
+
+}
+
+.character-thumb {
+  width: 4em;
+  height: 4em;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius: 0.4em;
+  margin-right: 0.6em;
+}
+.character-meta li{
+  margin-bottom: 0.2em;
+
+}
+.character-meta li:last-child {
+  margin-bottom: 0em;
+}
+.search label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'hind', sans-serif;
+  margin-bottom: .2em;
+}
+
+.search input {
+  width: 100%;
+  background: none;
+  font-size: 1em;
+  padding: .8em 1em;
+  border: solid 3px #5F4888;
+  outline: none;
+  border-radius: .4em;
+}
+
+.search input:focus {
+  border: solid 3px #5e1dec;
+  box-shadow: 0 0 6px #5e1dec;
+}
 
