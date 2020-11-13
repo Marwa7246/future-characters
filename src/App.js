@@ -11,10 +11,13 @@ function App() {
       <div className="container">
           <h1>Futurama Characters</h1>
       </div>
+      </header>
+
       <main className="container">
         <ul className="characters">
           {characters.map(character=>{
             const {name, company, species, thumb} = character;
+            console.log(thumb)
             return(
               <li key={name} className="character">
                 <span className="character-thumb"
@@ -35,9 +38,20 @@ function App() {
             )
           })}
         </ul>
+        <aside>
+          <form className="search">
+            <label>Search</label>
+            <input type="text"/>
+          </form>
+
+        </aside>
 
       </main>
-      </header>
+      <footer>
+        <p>
+          Images from <a href="http://www.cc.com/shows/futurama">Futurama</a>
+        </p>
+      </footer>
     </div>
   );
 }
