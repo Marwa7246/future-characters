@@ -10,6 +10,8 @@ margin: 0 auto;
 }
 
 .aside {
+  background: #161415 url(images/Dr_John_Zoidberg.png) no-repeat top center;
+
   width: 15em;
 
 }
@@ -22,7 +24,9 @@ main {
 
 
 header {
-  background: linear-gradient(to bottom, lightblue, blue);
+  background: #161415 url(images/Dr_John_Zoidberg.png) no-repeat top center;
+
+  /* background: linear-gradient(to bottom, lightblue, blue); */
 padding: 2em 0;
 margin-bottom: 3em;
 }
